@@ -1,0 +1,23 @@
+#signature, .panel {
+	float: left;
+	border: 1px solid;
+}
+.new_figure {
+	border: 1px solid;
+	width: 215px;
+	padding: 5px;
+	position: absolute;
+	z-index: 8888;
+	left: 30%;
+	background-color: white;
+	display: none;
+}
+.new_figure #obj {
+	float: left;
+	cursor: pointer;
+	border: 2px solid red;
+}
+.new_figure .param .radian,
+.new_figure .param #radian {
+	display: none;
+}
